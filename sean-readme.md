@@ -2,20 +2,17 @@
 
 Brought to you by Galvanize. Learn more about the way we teach at [galvanize.com](http://galvanize.com).
 
-Get to this repo by typing in URL: **scrape.sage.codes**
 
 ### FAQ: 
 
 - WIFI: `Galvanize Guest` | Password: `beapineapple`
-- Bathrooms: Behind you down the hall to the left
-- Kitchen outside back classroom door with Coffee & Tea!
-- Snacks + water in back of room
+
 
 ## What this workshop is
 
 A super friendly introduction to web scraping No previous experience expected, but some concepts may be confusing if you have never programmed before. If you get too lost let me know!
 
-You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited and comfortable to keep working and learning on your own! 
+You can't learn EVERYTHING in ~1.5 hours. But you can learn enough to get excited and comfortable to keep working and learning on your own! 
 
 - This course is for absolute beginners
 - Ask Questions!
@@ -35,11 +32,6 @@ You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited 
 
 * A web browser to see what we're working on as others see it (Recommend Google Chrome: [chrome.google.com] (http://chrome.google.com))
 
-* We will be using an online text editor for this workshop. You can sign up here: [https://repl.it/](https://repl.it/)
-
-
-Well... that was easy! 
-
 
 ## Overview
 The goal of this brief course is to provide you with a fun introduction to web Scraping Python.
@@ -51,14 +43,10 @@ The goal of this brief course is to provide you with a fun introduction to web S
 
 
 ## About me:
-Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist here at Galvanize! Previously I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love making things with technology! Currently learning more about computer vision with deep learning and helping a startup with a lane detection system for a self driving car application.
+Hello I'm Sean Reed. I'm a Data Science Instructor here at Galvanize! 
 
- I'm not a Galvanize Instructor, they're way better at teaching!
-
-- Website: [sageelliott.com](http://sageelliott.com/)
-- Twitter: [@sagecodes](https://twitter.com/@sagecodes)
-- LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
-- Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
+- LinkedIn: [seanreed1](https://www.linkedin.com/in/seanreed1/) 
+- Email: [sean.reed@galvanize.com](mailto:sean.reed@galvanize.com)
 
 
 ## About you!
@@ -80,7 +68,7 @@ Many sites have APIs you can connect to and use to pull data from.  Such as the 
 
 ### Where is it used?
 
-Really any where you think it would be appriate to gather data. 
+Really any where you think it would be appropriate to gather data. 
 
 Some people I've met have built web scraper to look for jobs & find apartments.
 
@@ -103,10 +91,10 @@ HTML is one of the main building blocks of the web!
 
 ###### Some common Tags(Elements):
 
-- `<html>`	designates an HTML document
-- `<head>`	contains undisplayed information about the document
-- `<title>`	Creates a title for the document
-- `<body>`	contains displayed information
+- `<html>`  designates an HTML document
+- `<head>`  contains undisplayed information about the document
+- `<title>` Creates a title for the document
+- `<body>`  contains displayed information
 - `<header>, <main>, <footer>` denotes which part of the page elements belong
 
 - `<h1> - <h6>` create section headings (h1 biggest, h6 Smallest)
@@ -114,7 +102,7 @@ HTML is one of the main building blocks of the web!
 - `<a href=""></a>` (anchor), activates a link in the page
 - `<ul>, <ol>` creates lists
   - `<li>` contains items in lists
-- `<br>`	Inserts a single line break
+- `<br>`  Inserts a single line break
 
 
 ###### Self-closing Tags:
@@ -123,7 +111,7 @@ most HTML tags require an opening and a closing tag. There are a few however tha
 - `<img src="">` creates an image in the page
 - `<br>` creates a break in the content
 - `<input type="">` creates an input field
-- `<hr>`	Creates a line in the page 
+- `<hr>`  Creates a line in the page 
 
 ###### IDs, Classes
 IDs and classes are very similar.
@@ -139,12 +127,12 @@ See More tags [here](https://www.w3schools.com/tags/ref_byfunc.asp)
 
 Learn more HTML [here](https://www.w3schools.com/Html/)
 
-	
+  
 #### Inspect element of a web page
 
 - Go to a web page
 - right click
-- select `inspect element	`
+- select `inspect element `
 - you should not see a pop up or frame showing the HTML of a web page.
 
 
@@ -152,7 +140,7 @@ Learn more HTML [here](https://www.w3schools.com/Html/)
 
 We're going to be using python to do our web scraping.
 
-Don't worry if you've never programmed in python or at all before, I will explain concepts along the way. And if you want me to repeat something just ask! We'll be doing a free intro to python workshop in January too if you want to go deeper! Or go through our [free data science prep material](https://www.galvanize.com/data-science-prep).
+Don't worry if you've never programmed in python or at all before, I will explain concepts along the way. And if you want me to repeat something just ask! We'll be doing a [free intro to python workshop](https://www.eventbrite.com/e/galvanize-nyc-python-101-tickets-54032384316?aff=erellivmlt) in next few weeks too if you want to go deeper! Or go through our [free data science prep material](https://www.galvanize.com/data-science-prep).
 
 ##### Requests
 
@@ -213,7 +201,7 @@ Book mark this repo or the colla notebook and experiement with the code. Try a d
 # Keep Learning
 
 - [Free Data Science Prep](https://www.galvanize.com/data-science-prep)
-
+- [Python 101 on Feb 21st](https://www.eventbrite.com/e/galvanize-nyc-python-101-tickets-54032384316?aff=erellivmlt)
 
 
 - Checkout [Scrapy](https://scrapy.org/). Another python module foring doing web scraping. 
@@ -225,7 +213,6 @@ Book mark this repo or the colla notebook and experiement with the code. Try a d
 
 We host so many events! check out our [calendar](https://www.galvanize.com/events)
 
-Visit the [Learn to code Seattle](https://www.meetup.com/Learn-Code-Seattle/) meetup for all upcoming events.
 
 
 ## What is Galvanize?
@@ -238,10 +225,6 @@ Visit the [Learn to code Seattle](https://www.meetup.com/Learn-Code-Seattle/) me
 
 - [Software Engineer](https://www.galvanize.com/web-development) - 2/19/19 - 5/17/19
 
-#### Part-Time Courses
-
-- [Data Analytics](https://www.galvanize.com/part-time/data-analytics) 2/12/19 - 5/2/19
-- [Python Fundamentals](https://www.galvanize.com/part-time/data-science-fundamentals) - 2/20/19 - 3/29/19
 
 #### Co-working Space
 
@@ -251,13 +234,11 @@ Visit the [Learn to code Seattle](https://www.meetup.com/Learn-Code-Seattle/) me
 
 ## Questions
 
-Please feel free to reach out to me with any questions! Let me know what you're planning to do next and how I can help!
+Please feel free to reach out to me with any questions!
 
 
-- Website: [sageelliott.com](http://sageelliott.com/)
-- Twitter: [@sagecodes](https://twitter.com/@sagecodes)
-- LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
-- Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
+- LinkedIn: [seanreed1](https://www.linkedin.com/in/seanreed1/) 
+- Email: [sean.reed@galvanize.com](mailto:sean.reed@galvanize.com)
 
 
 
